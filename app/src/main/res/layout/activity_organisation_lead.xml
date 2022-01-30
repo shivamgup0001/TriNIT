@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrganisationLead">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/organisationLeadRecycler">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:fab_addButtonColorNormal="@color/design_default_color_primary"
+        app:fab_addButtonColorPressed="#FFFFFF">
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addPeople"
+            app:fab_title="Add Role"
+            app:fab_icon="@drawable/ic_baseline_group_add_24"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/design_default_color_primary"
+            app:fab_colorPressed="#FFFFFF"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/requests"
+            app:fab_title="Requests"
+            app:fab_icon="@drawable/ic_baseline_mail_24"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/design_default_color_primary"
+            app:fab_colorPressed="#FFFFFF"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reportedBugs"
+            app:fab_title="Reported Bugs"
+            app:fab_icon="@drawable/ic_baseline_bug_report_24"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/design_default_color_primary"
+            app:fab_colorPressed="#FFFFFF"/>
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
