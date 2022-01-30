@@ -1,5 +1,4 @@
 package com.example.trinit;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -9,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.getbase.floatingactionbutton.FloatingActionButton;
-
 public class OrganisationLead extends AppCompatActivity {
     FloatingActionButton b1,b2,b3;
     RecyclerView recyclerView;
@@ -45,7 +43,6 @@ public class OrganisationLead extends AppCompatActivity {
         });
         recyclerView=findViewById(R.id.organisationLeadRecycler);
         recyclerView.setHasFixedSize(true);
-
         recyclerView.setLayoutManager(new LinearLayoutManager(OrganisationLead.this));
         recyclerViewAdapter=new RecyclerViewAdapter(OrganisationLead.this);
         recyclerView.setAdapter(recyclerViewAdapter);

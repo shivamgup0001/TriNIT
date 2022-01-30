@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "746206516791",
+    "firebase_url": "https://trinit-a2d2c-default-rtdb.firebaseio.com",
+    "project_id": "trinit-a2d2c",
+    "storage_bucket": "trinit-a2d2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746206516791:android:94a9db2bff64c9ee40d1b2",
+        "android_client_info": {
+          "package_name": "com.example.trinit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746206516791-qfgn8n1nvaebmrk6e7qcmhekjndlah79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trinit",
+            "certificate_hash": "537fc67352c17b84f87950b5967999641374a07a"
+          }
+        },
+        {
+          "client_id": "746206516791-hka0fuk3cofau0mdvmqak7lli9299ddt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoAErlpIhTFma_jnxC9lep0Z3jtEPZQAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746206516791-hka0fuk3cofau0mdvmqak7lli9299ddt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

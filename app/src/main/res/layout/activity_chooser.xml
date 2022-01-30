@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chooser">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:id="@+id/organisation_lead_card"
+
+        android:layout_height="350px"
+        android:background="@color/basecolor"
+        android:layout_marginBottom="350dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:clickable="true"
+        app:cardCornerRadius="100px"
+        android:backgroundTint="@color/basecolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/lead"
+            android:gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/basecolor2"
+            android:textSize="20dp"
+            android:fontFamily="@font/font1"
+            android:text="ORGANISATION LEAD" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:id="@+id/employee_card"
+        android:layout_height="350px"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:clickable="true"
+        app:cardCornerRadius="100px"
+        android:backgroundTint="@color/basecolor"
+        android:background="@color/basecolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/employee"
+            android:gravity="center"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/basecolor2"
+            android:textSize="25dp"
+            android:fontFamily="@font/font1"
+            android:text="EMPLOYEE" />
+    </androidx.cardview.widget.CardView>/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:id="@+id/user_card"
+        android:layout_height="350px"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:clickable="true"
+        app:cardCornerRadius="100px"
+        android:backgroundTint="@color/basecolor"
+        android:background="@color/basecolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/user"
+            android:gravity="center"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/basecolor2"
+            android:textSize="25dp"
+            android:fontFamily="@font/font1"
+            android:text="USER" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

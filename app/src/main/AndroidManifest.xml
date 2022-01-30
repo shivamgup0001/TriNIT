@@ -9,19 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TriNIT">
-        <activity android:name=".LeadReportedBugs"></activity>
+        <activity android:name=".chooser"></activity>
+        <activity android:name=".signup" />
+        <activity android:name=".LeadReportedBugs" />
         <activity android:name=".LeadRequests" />
         <activity android:name=".LeadAddPeople" />
         <activity android:name=".EmployeeUI" />
         <activity android:name=".UserUI" />
-        <activity android:name=".OrganisationLead">
+        <activity android:name=".OrganisationLead" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

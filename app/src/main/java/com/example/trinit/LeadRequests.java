@@ -1,11 +1,9 @@
 package com.example.trinit;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-
 public class LeadRequests extends AppCompatActivity {
     RecyclerView recyclerView;
     private RecyclerViewAdapter recyclerViewAdapter;

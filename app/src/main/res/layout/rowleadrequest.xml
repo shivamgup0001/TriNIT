@@ -40,6 +40,7 @@
                 android:layout_weight="1"
                 android:background="#FFEB3B"
                 android:layout_margin="5dp"
+
                 app:srcCompat="@drawable/ic_baseline_check_box_24" />
 
             <ImageButton
@@ -49,6 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="#FFEB3B"
+
                 app:srcCompat="@drawable/ic_baseline_cancel_presentation_24" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
