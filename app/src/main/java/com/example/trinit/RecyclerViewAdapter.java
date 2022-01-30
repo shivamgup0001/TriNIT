@@ -36,6 +36,18 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             View view = inflater.inflate(R.layout.rowlead, parent, false);
             return new ViewHolder(view);
         }
+        if(MainActivity.check==5){
+            View view = inflater.inflate(R.layout.rowleadadd, parent, false);
+            return new ViewHolder(view);
+        }
+        if(MainActivity.check==6){
+            View view = inflater.inflate(R.layout.rowleadrequest, parent, false);
+            return new ViewHolder(view);
+        }
+        if(MainActivity.check==7){
+            View view = inflater.inflate(R.layout.rowleadreport, parent, false);
+            return new ViewHolder(view);
+        }
         return null;
     }
 
