@@ -1,13 +1,12 @@
-package com.example.trinit;
+ package com.example.trinit;
+        import android.content.Context;
+        import android.view.LayoutInflater;
+        import android.view.View;
+        import android.view.ViewGroup;
 
-import android.content.Context;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
-import androidx.recyclerview.widget.RecyclerView;
+        import androidx.annotation.NonNull;
+        import androidx.cardview.widget.CardView;
+        import androidx.recyclerview.widget.RecyclerView;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
 
@@ -36,6 +35,18 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             View view = inflater.inflate(R.layout.rowlead, parent, false);
             return new ViewHolder(view);
         }
+        if(MainActivity.check==5){
+            View view = inflater.inflate(R.layout.rowleadadd, parent, false);
+            return new ViewHolder(view);
+        }
+        if(MainActivity.check==6){
+            View view = inflater.inflate(R.layout.rowleadrequest, parent, false);
+            return new ViewHolder(view);
+        }
+        if(MainActivity.check==7){
+            View view = inflater.inflate(R.layout.rowleadreport, parent, false);
+            return new ViewHolder(view);
+        }
         return null;
     }
 
@@ -55,3 +66,4 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         }
     }
 }
+
