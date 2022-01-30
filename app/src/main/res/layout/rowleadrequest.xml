@@ -40,7 +40,8 @@
                 android:layout_weight="1"
                 android:background="#FFEB3B"
                 android:layout_margin="5dp"
-                app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+                app:srcCompat="@drawable/ic_baseline_check_box_24" />
 
             <ImageButton
                 android:id="@+id/imageButton2"
@@ -49,7 +50,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="#FFEB3B"
-                app:srcCompat="@drawable/common_google_signin_btn_icon_dark_normal_background" />
+
+                app:srcCompat="@drawable/ic_baseline_cancel_presentation_24" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
